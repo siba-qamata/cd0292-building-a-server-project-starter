@@ -1,6 +1,5 @@
 const sharp = require('sharp');
 
-
 sharp('input.jpg')
   .rotate()
   .resize(200)

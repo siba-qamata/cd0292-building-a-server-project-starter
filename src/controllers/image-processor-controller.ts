@@ -1,3 +1,6 @@
+const sharp = require('sharp');
+
+
 /**
  * Image processor
  * @function
@@ -9,8 +12,14 @@
  export const imageProcessorController = async(req: any, res: any, next: any) =>{
     try {
 
-
     const result = ""
+    sharp('input.jpg')
+  .rotate()
+  .resize(200)
+  .jpeg({ mozjpeg: true })
+  .toBuffer()
+  .then( (data:object) => { console.log(data); })
+  .catch( (err:object) => { console.error(err); });
 
     res.json(result)
     } catch (error) {
