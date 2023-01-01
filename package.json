@@ -1,0 +1,36 @@
+{
+  "name": "cd0292-building-a-server-project-starter",
+  "version": "1.0.0",
+  "description": "This project aims to give you a real-world scenario in which you would read and write to your disk via a Node.js express server rather than a database. The project you create serves two purposes: to prepare you for setting up scalable code and architecture for real-world projects and tie together some of the most popular middleware and utilities found in Node.js projects. This project barely touches the surface of what is possible but will prove your ability to use what you’ve learned in real-world scenarios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siba-qamata/cd0292-building-a-server-project-starter.git"
+  },
+  "author": "Siba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siba-qamata/cd0292-building-a-server-project-starter/issues"
+  },
+  "homepage": "https://github.com/siba-qamata/cd0292-building-a-server-project-starter#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.12",
+    "body-parser": "^1.20.1",
+    "config": "^3.3.8",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jasmine": "^4.5.0",
+    "sharp": "^0.31.2",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "supertest": "^6.3.3"
+  }
+}
